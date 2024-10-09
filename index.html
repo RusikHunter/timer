@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport'
+        content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <title>Timer</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/normalize-styles.css">
+    <script src="scripts/Window.js" type="module" defer></script>
+</head>
+
+<body>
+    <main class="main">
+        <section class="section">
+            <div class="window">
+                <button class="window__toggle-button">Timer/Stopwatch</button>
+
+                <div class="timer">
+                    <h1 class="timer__output--time">00:00</h1>
+
+                    <p class="timer__output--message">.</p>
+
+                    <div class="timer__inputs">
+                        <input type="number" value="0" class="timer__minutes" min="0" max="59" placeholder="MM">
+                        :
+                        <input type="number" value="0" class="timer__seconds" min="0" max="59" placeholder="SS">
+                    </div>
+
+                    <div class="timer__buttons">
+                        <button class="timer__button--start">Start!</button>
+
+                        <button class="timer__button--pause">Pause</button>
+
+                        <button class="timer__button--stop">Stop</button>
+                    </div>
+                </div>
+
+                <div class="stopwatch unvisible">
+                    <h1 class="stopwatch__output">00:00:00</h1>
+
+                    <div class="stopwatch__buttons">
+                        <button class="stopwatch__button--start">Start!</button>
+
+                        <button class="stopwatch__button--make-circle">Make circle</button>
+
+                        <button class="stopwatch__button--stop">Stop</button>
+                    </div>
+
+                    <div class="stopwatch__circles">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,130 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.window {
+    width: 100%;
+    display: flex;
+    padding-top: 12vw;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.window__toggle-button {
+    width: 100%;
+    background-color: lightblue;
+    color: white;
+    width: 44%;
+    padding-block: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.timer {
+    width: auto;
+}
+
+.timer__output--time {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.timer__output--message {
+    visibility: hidden;
+    text-align: center;
+    margin-bottom: 25px;
+    color: red;
+}
+
+.timer__inputs {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.timer__inputs input {
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.timer__buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    width: 10vw;
+    gap: 5px;
+}
+
+.timer__button--start {
+    background-color: lightgreen;
+    padding: 6px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.timer__button--pause {
+    background-color: lightgoldenrodyellow;
+    padding: 6px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.timer__button--stop {
+    background-color: lightcoral;
+    padding: 6px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.stopwatch__output {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.stopwatch__buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    width: 10vw;
+    gap: 5px;
+}
+
+.stopwatch__button--start {
+    background-color: lightgreen;
+    padding: 6px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.stopwatch__button--make-circle {
+    background-color: lightgoldenrodyellow;
+    padding: 6px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.stopwatch__button--stop {
+    background-color: lightcoral;
+    padding: 6px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.stopwatch__circles {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 3px;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.unvisible {
+    display: none;
+}
